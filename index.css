@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.topsection{
+    height: 85vh;
+    width: 100vw;
+    background-image: url('https://cdn.shopify.com/s/files/1/0472/4876/9176/articles/Cleaning-Alcantara_2048x.progressive.jpg?v=1620319035');
+    overflow: hidden;
+}
+.navbar{
+    color: white;
+    display: flex;
+    margin: 0 200px; 
+    justify-content: space-between;
+}
+i{
+    font-size: 26px;
+    
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.logo h1{
+    margin-left: 10px !important;
+}
+.forul{
+    display: flex;
+    align-items: center !important;
+    }
+li{
+    list-style: none;
+    margin: 0  10px;
+    cursor: pointer;
+}
+li:nth-child(5){
+    background-color: skyblue;
+    height: 40px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.midsection{
+    display: flex;
+    flex-direction: column;
+    color: white;  
+    position: relative;
+    top: 30vh;
+    margin: 10px 200px;
+}
+.midsection h1{
+    color: skyblue;
+    font-size: 40px;
+}
+
+.midsection h3{
+    margin: 0;
+}
+.midsection h4{
+    background-color: skyblue;
+    color: white;
+    height: 50px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footersection{
+    height: 15vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: black;
+}
+.box{
+    margin: 0 200px;
+    display: flex;
+    color:white;
+    justify-content: space-between;
+}
+.box div h4{
+    color: skyblue;
+    margin-bottom: 0;
+}
+.box div h5{
+    margin-top: 1px;
+}
+
